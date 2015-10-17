@@ -1,0 +1,3 @@
+* Describe z-index and how stacking context is formed.
+
+I like to think of the z-index as all the elements that have this style on them being different sized sticky notes all stacked together on top of or below a base sticky note. When you give an element a z-index you give it a value greater than or less than zero and the elements will be laid out on the z axis of the page in that order. So if you gave a image that took up the entire page a z-index of -10 and then another smaller image a z-index of -5 or 1 or anything greater than -10 it would show up on top of or overlapping the larger image. 

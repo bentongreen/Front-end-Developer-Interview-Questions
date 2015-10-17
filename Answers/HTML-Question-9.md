@@ -1,0 +1,3 @@
+* Why is it generally a good idea to position CSS `<link>`s between `<head></head>` and JS `<script>`s just before `</body>`? Do you know any exceptions?
+
+The reason this is a good idea is because you want the page to have all the info needed to render before the javascript is loaded because otherwise the javascript with have to parse all the information before continuing and so the page can't be completely rendered since it won't have all the style information yet.

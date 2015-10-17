@@ -1,0 +1,3 @@
+* What's the difference between "resetting" and "normalizing" CSS? Which would you choose, and why?
+
+resetting CSS is basically wiping the slate clean so to speak and starting from scratch with no CSS whatsoever while normalizing CSS is taking the default existing CSS and making it all conform to a specified stanard (maybe all margins are a certain value etc..) This allows you to start from a base point on all your CSS instead of starting from scratch or from default. I personally prefer to choose the reset because I like to work from a clean slate and build up from nothing, this also makes it easier to avoid problems with overlapping or additive CSS.

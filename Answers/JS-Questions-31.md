@@ -1,0 +1,3 @@
+* What is `"use strict";`? what are the advantages and disadvantages to using it?
+
+'use strict' tells the code to execute in strict mode which means you cannot do things like use undeclared variables. The benefit of strict mode is that it makes writing secure javascript easier however in strict mode what was once just a bad syntax that was accepted will now throw errors. So in summary 'use strict' helps you write more secure and sytactically correct code but it removes some of the flexibility that you had.

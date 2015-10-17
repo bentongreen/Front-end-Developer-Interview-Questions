@@ -1,0 +1,3 @@
+* Explain AJAX in as much detail as possible.
+
+AJAX stands for Asynchronous Javascript And XML. It is a group of interrelated web dev. techniques used in client-side programming to make (async) web applications. AJAX incorporates HTML, XHTML, CSS, the DOM, XML, XSLT, and XMLHttpRequest and it uses Javascript to tie them all together. Ajax web apps send and retrieve information from servers ansynchronously without changing the display of current page.

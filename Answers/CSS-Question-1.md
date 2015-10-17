@@ -1,0 +1,3 @@
+* What is the difference between classes and ID's in CSS?
+
+The id selector is basically a single element selector while the class selector is usually used to select numerous elements allowing you to set a style for many elements at once, the class selector uses the HTML class attribute and is defined with a . while ids are defined with a #. ids are unique to one elements, classes are for many elements.

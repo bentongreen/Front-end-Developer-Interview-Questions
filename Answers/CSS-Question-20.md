@@ -1,0 +1,3 @@
+* How would you implement a web design comp that uses non-standard fonts?
+
+I would create a SASS partials file called _typography.scss that would pull in and define the needed external fonts and make variables for them such as $font-main: 'Roboto Slab', serif; and then I would link in the external fonts on my index page with a link tag with an href that points to the font, for example https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700|Ubuntu:400,300,700 
