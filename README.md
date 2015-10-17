@@ -1,27 +1,3 @@
-#Front-end Job Interview Questions
-
-This file contains a number of front-end interview questions that can be used when vetting potential candidates. It is by no means recommended to use every single question here on the same candidate (that would take hours). Choosing a few items from this list should help you vet the intended skills you require.
-
-**Note:** Keep in mind that many of these questions are open-ended and could lead to interesting discussions that tell you more about the person's capabilities than a straight answer would.
-
-## Table of Contents
-
-  1. [General Questions](#general-questions)
-  1. [HTML Questions](#html-questions)
-  1. [CSS Questions](#css-questions)
-  1. [JS Questions](#js-questions)
-  1. [Testing Questions](#testing-questions)
-  1. [Performance Questions](#performance-questions)
-  1. [Network Questions](#network-questions)
-  1. [Coding Questions](#coding-questions)
-  1. [Fun Questions](#fun-questions)
-
-## Getting Involved
-
-  1. [Contributors](#contributors)
-  1. [How to Contribute](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/CONTRIBUTING.md)
-  1. [License](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/LICENSE.md)
-
 #### General Questions:
 
 * What did you learn yesterday/this week?
@@ -48,9 +24,9 @@ This file contains a number of front-end interview questions that can be used wh
 
 #### HTML Questions:
 
-* What does a `doctype` do?
-* What's the difference between standards mode and quirks mode?
-* What's the difference between HTML and XHTML?
+* 
+*
+* 
 * Are there any problems with serving pages as `application/xhtml+xml`?
 * How do you serve a page with content in multiple languages?
 * What kind of things must you be wary of when design or developing for multilingual sites?
@@ -64,10 +40,10 @@ This file contains a number of front-end interview questions that can be used wh
 
 #### CSS Questions:
 
-* What is the difference between classes and ID's in CSS?
-* What's the difference between "resetting" and "normalizing" CSS? Which would you choose, and why?
-* Describe Floats and how they work.
-* Describe z-index and how stacking context is formed.
+* 
+*
+*
+*
 * Describe BFC(Block Formatting Context) and how it works.
 * What are the various clearing techniques and which is appropriate for what context?
 * Explain CSS sprites, and how you would implement them on a page or site.
@@ -177,74 +153,3 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
   * ETag
   * X-Frame-Options
 * What are HTTP actions? List all HTTP actions that you know, and explain them.
-
-#### Coding Questions:
-
-*Question: What is the value of `foo`?*
-```javascript
-var foo = 10 + '20';
-```
-
-*Question: How would you make this work?*
-```javascript
-add(2, 5); // 7
-add(2)(5); // 7
-```
-
-*Question: What value is returned from the following statement?*
-```javascript
-"i'm a lasagna hog".split("").reverse().join("");
-```
-
-*Question: What is the value of `window.foo`?*
-```javascript
-( window.foo || ( window.foo = "bar" ) );
-```
-
-*Question: What is the outcome of the two alerts below?*
-```javascript
-var foo = "Hello";
-(function() {
-  var bar = " World";
-  alert(foo + bar);
-})();
-alert(foo + bar);
-```
-
-*Question: What is the value of `foo.length`?*
-```javascript
-var foo = [];
-foo.push(1);
-foo.push(2);
-```
-
-*Question: What is the value of `foo.x`?*
-```javascript
-var foo = {n: 1};
-var bar = foo;
-foo.x = foo = {n: 2};
-```
-
-*Question: What does the following code print?*
-```javascript
-console.log('one');
-setTimeout(function() {
-  console.log('two');
-}, 0);
-console.log('three');
-```
-
-#### Fun Questions:
-
-* What's a cool project that you've recently worked on?
-* What are some things you like about the developer tools you use?
-* Do you have any pet projects? What kind?
-* What's your favorite feature of Internet Explorer?
-* How do you like your coffee?
-
-
-#### Contributors:
-
-This document started in 2009 as a collaboration of [@paul_irish](https://twitter.com/paul_irish) [@bentruyman](https://twitter.com/bentruyman) [@cowboy](https://twitter.com/cowboy) [@ajpiano](https://twitter.com/ajpiano)  [@SlexAxton](https://twitter.com/slexaxton) [@boazsender](https://twitter.com/boazsender) [@miketaylr](https://twitter.com/miketaylr) [@vladikoff](https://twitter.com/vladikoff) [@gf3](https://twitter.com/gf3) [@jon_neal](https://twitter.com/jon_neal) [@sambreed](https://twitter.com/sambreed) and [@iansym](https://twitter.com/iansym).
-
-It has since received contributions from over [100 developers](https://github.com/h5bp/Front-end-Developer-Interview-Questions/graphs/contributors).

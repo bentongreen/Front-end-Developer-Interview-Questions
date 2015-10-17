@@ -1,0 +1,3 @@
+* If you jumped on a project and they used tabs and you used spaces, what would you do?
+
+I would conform to their way of doing things since I am coming into their project once it's already begun and I am the new member, in later projects with that team that I was part of from the start I would ask if they've considered using another method (spaces) but I would not push for it being the new member of the team.

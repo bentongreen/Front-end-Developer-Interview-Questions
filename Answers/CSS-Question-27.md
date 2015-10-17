@@ -1,0 +1,3 @@
+* What's the difference between a relative, fixed, absolute and statically positioned element?
+
+Statically positioned elements are the defualt. Relative elements are positioned relative to themselves so they require you to give them other inputs such as top: 10px; or left: 5px;. Absolute postioning elements are placed at some exact point on the screen and will not move, these elements position is relative only to the html element itself. This means they are also outside of the flow of the page elements. Fixed elements at positioned relative to the viewport (ie browser window) so they will remain at their position in the browser even when scrolling (some horrible ads do this)

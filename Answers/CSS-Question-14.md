@@ -1,0 +1,3 @@
+* Have you used or implemented media queries or mobile specific layouts/CSS?
+
+Yes I have used and implemented media queries to make mobile specific layouts and views in my CSS and SASS work when designing pages that need to be mobile first but still have working and visually acceptable desktop views. I most commonly use @media screen and (min-width: 50em) when designing to have a desktop and a mobile view, when design for a wider range of devices including tablets I would implement more numerous media queries.

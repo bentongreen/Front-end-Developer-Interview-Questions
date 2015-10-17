@@ -1,0 +1,3 @@
+* The 'C' in CSS stands for Cascading.  How is priority determined in assigning styles (a few examples)?  How can you use this system to your advantage?
+
+Priority is determined based on specificity, meaning if you apply a style to all p tags but theres a p tag with a class with a conflicting style that p element with retain the styles from its class over the styles applied to p tags in general. Also if you applied the color red to all p tags and then in the next tag you applied the color blue only the color blue would be enacted because only the last style is visible. You can forcibly override these rules with the !attribute.

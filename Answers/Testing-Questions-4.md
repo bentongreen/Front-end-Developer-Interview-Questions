@@ -1,0 +1,3 @@
+* What is the purpose of a code style linting tool?
+
+The purpose of a code style linting tool is to root out any suspicious contructs such as variables being used before being set and other similar problems, linting tools also find code that doesn't follow set style guidelines. Linting tools are also used as simple debuggers in some cases since they can easily find simple syntactical errors that the author may not see.
